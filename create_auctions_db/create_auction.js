@@ -25,6 +25,7 @@ db.auctions.insertMany( [
 ]);
 
 // Insert users 
+/*
 db.users.insertMany(
     [{
         "_id":  ObjectId("62795f08aa9af81cd7be21a9"),
@@ -33,9 +34,8 @@ db.users.insertMany(
         "roles": [
           {
             "$ref": "roles",
-            "$id": {
-              "$oid": "625eb1c33712d9caa15f264d"
-            }
+            "$id": {625eb1c33712d9caa15f264d}, "undefined"}, 
+            
           }
         ],
         "_class": "com.example.auctionapispring.users.User"
@@ -82,6 +82,8 @@ db.users.insertMany(
         "_class": "com.example.auctionapispring.users.User"
       }]
 );
+*/
+
 // Insert Roles
 db.roles.insertMany(
     [{
