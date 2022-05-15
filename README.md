@@ -6,4 +6,4 @@ mongosh --port 27017 --file create_auctions_db.js
 You need to have the mongodb shell installed. 
 https://www.mongodb.com/docs/mongodb-shell/
     
-Known issues: In create_auctions_db, Roles in users not correct implemented.
+users exluded
