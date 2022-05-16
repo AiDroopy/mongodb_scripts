@@ -6,4 +6,4 @@
 You need to have the mongodb shell installed. 
 https://www.mongodb.com/docs/mongodb-shell/
     
-users exluded
+users exluded, safety and other reasons, add a user in FrontEnd Client instead when script is done.
